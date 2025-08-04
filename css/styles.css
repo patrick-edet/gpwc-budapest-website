@@ -1,0 +1,288 @@
+/* GENERAL DESIGN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #203864;
+    background-color: #293E75;
+}
+
+
+/*HEADER DESIGN */
+
+header {
+    color: white;
+    padding: 1rem 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    font-weight: 600;
+}
+
+ul li a:hover {
+    color: #CE4642;
+    text-decoration: underline;
+    transition: width 0.3s ease;
+}
+
+.btn-primary {
+    background: #CE4642;
+    color: white;
+    border: none;
+    padding: 0.5rem 2.0vw;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #700804;
+}
+
+
+/* BODY DESIGN */
+
+section{
+    background-color: white;
+}
+
+
+/* FOOTER DESIGN */
+
+footer{
+    padding: 1.5rem 5vw;
+    padding-bottom: 0.5rem;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+    padding: 1rem 5vw;
+}
+
+.social-media{
+    padding: 0%;
+    margin: 0%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #e1306c;
+    color: white;
+}
+
+
+
+/* ------INDEX PAGE DESIGN ------ */
+
+.hero {
+    background-color: #5b5baf;
+    background-image: url(../images/gpwc_womensday-40.jpg);
+    background-blend-mode: multiply;
+    height: 500px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;        
+}
+
+.cta {
+    background-color: #E0DEDD;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1rem 5vw;
+    gap: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 5vw;
+    background-color: white;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.grid-item {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #0000001a; 
+    overflow-wrap: break-word;
+}
+
+h3{
+    padding: 1rem;
+    color: #CE4642;
+}
+
+.services-header{
+    text-align: center;
+    color: #203864;
+}
+
+.services-text{
+    color: #203864;
+}
+
+.services-images{
+    padding-bottom: 1rem;
+    display: block;
+    min-width: 400px;
+    height: auto;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+.church-activities h3{
+    margin-bottom: 1rem;
+}
+
+.church-activities img{
+    display: block;
+    max-width: 100%;
+    margin: 1rem 0;
+}
+
+
+
+/* ---------ABOUT-PAGE DESIGN --------*/
+
+.core-values-header{
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.core-values-text{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+
+/* ---------MINISTRY-PAGE DESIGN --------*/
+
+.ministry-images{
+    padding-bottom: 1rem;
+    display: block;
+    min-width: 400px;
+    height: auto;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;   
+}
+
+.grid-items-header{
+    padding: 1rem 5vh;
+}
+
+
+
+/* ---------GALLERY DESIGN --------*/
+
+.photo-library{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 5vw;
+}
+
+.photo-library-text{
+    padding: 1rem 5vw;
+    padding-top: 3.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 1.2rem;
+
+}
+
+.photo-library img{
+    width: 90%;
+    padding: 0.5rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+/* ---------DONATIONS DESIGN --------*/
+    
+.hero-donations{
+    background-image: url("../images/sample\ picture.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 200px;
+    width: auto;
+    background-position: top;
+    color: #f5f5f5;
+}
+
+.hero-donations-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    padding: 1.5rem 5vw;
+}
+
+.donations-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;   
+    padding: 3rem;
+}
+
+
+
+
+
+
+
+
