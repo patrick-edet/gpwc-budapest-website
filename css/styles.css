@@ -126,7 +126,7 @@ section{
 footer{
     padding: 1.5rem 5vw;
     padding-bottom: 0.5rem;
-    font-size: 1em;
+    font-size: 0.75em;
     color: #5d6c8c;
     font-weight: bold;
     text-align: center;
@@ -465,6 +465,7 @@ form {
   form button[type="reset"]:hover {
     background-color: #700804;
   }
+
 
 
 
