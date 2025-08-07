@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPWC-Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="./images/pngfind.com-church-logos-png-3820755.png" alt=""></a>
+            </div>
+
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about-us.html">About Us</a></li>
+                        <li><a href="./mens-ministry.html">Men's Ministry</a></li>
+                        <li><a href="./womens-ministry.html">Women's Ministry</a></li>
+                        <li><a href="./donations.html">Donations</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="contact-info">
+                <button class="btn-primary"><a href="./contact-us.html">Contact Us</a></button>
+            </div>
+        </header>
+    
+    <section >
+            <div class="contact-form">
+
+                <div class="contact-form-image">
+
+                </div>
+
+                <h2 class="contact-form-text-1"> 
+                    We are happy to hear from you - Get in Touch </h2>
+
+                <p class="contact-form-text-2">
+                    Please complete the form below to submit your inquiry and we will respond as soon as possible.
+                </p>
+
+                <form method="post" action="https://formsubmit.co/" enctype="multipart/form-data">
+                    <input type="hidden" name="_subject" value="New submission! - General Inquiry">
+                    <input type="hidden" name="_autoresponse" value="Thank you for contacting us. We will get back to you shortly.">
+
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="Full-Name" id="full-name" placeholder="Your Fullname" required>
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="Email" id="email" placeholder="Your Email Address" required>
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="tel" name="Phone" id="phone" placeholder="Your Phone Number">
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+
+                    <div>
+                        <label for="location">Location in Hungary</label>
+                        <input type="text" name="Location" id="location" placeholder="Your Current Location" required>
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+
+                    <div>
+                        <label for="contact-reason">Subject</label>
+                        <input type="text" name="contact-reason" id="contact-reason" placeholder="Subject" required>
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+
+                    <div>
+                        <label for="Additional-Info">Description</label>
+                        <textarea name="Additional-Info" id="Additional-Info"> </textarea>
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+
+                    <p class="contact-form-cta">
+                        <p>By submitting this form, you agree to the <a href="./terms-of-use.html" style="color: rgb(11, 11, 66); text-decoration: underline;">Terms of Use</a> of this website.</p>
+                    </p>
+
+                </form>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <p class="footer-text">© 2025 GPWC Budapest. All rights reserved.</p> 
+            </div>
+        
+            <div class="social-media">
+                <a href="https://www.facebook.com/login.php/" target="_blank" class="fa fa-facebook"></a> 
+                <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            </div>
+
+            <div>
+                <p>
+                    Developed & Managed by <a href="https://www.patrickedet.com/" target="_blank"><u>PEEJ</u></a>  
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/scripts.js"></script>
+
+</body>
+</html>
