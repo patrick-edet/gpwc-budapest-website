@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GPWC-Budapest</title>
+    <title>GPWC-About Us</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+        <header>
             <div class="logo">
-                <h1>GPWC</h1>
+                <a href="index.html"><img src="./images/pngfind.com-church-logos-png-3820755.png" alt=""></a>
             </div>
+
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
             <div class="navbar">
                 <nav>
@@ -22,23 +27,22 @@
                         <li><a href="./about-us.html">About Us</a></li>
                         <li><a href="./mens-ministry.html">Men's Ministry</a></li>
                         <li><a href="./womens-ministry.html">Women's Ministry</a></li>
-                        <li><a href="./gallery.html">Gallery</a></li>
                         <li><a href="./donations.html">Donations</a></li>
                     </ul>
                 </nav>
             </div>
 
             <div class="contact-info">
-                <button class="btn-primary">Contact Us</button>
+                <button class="btn-primary"><a href="./contact-us.html">Contact Us</a></button>
             </div>
-    </header>
+        </header>
 
     <section>
         <div class="grid-container">
             <div class="grid-items">
                 <h3>Who we are</h3>
 
-                <p>
+                <p class="aboutme-text">
                     Founded by Sam and Helen Harris from Hamilton, 
                     Ontario, Chocolate Charm was the first speciality chocolate shop in the region. 
                     What started out as a hobby fostered by a deep, passionate love of chocolate quickly 
@@ -56,16 +60,18 @@
             <div class="grid-items">
                 <h3>Our Mission</h3>
 
-                <p>
+                <p class="aboutme-text">
                     "To uphold the Centrality of the Word of God and through the enablement of the Holy Spirit, 
-                    pursue a holistic ministry, so as to bring all of creation to glorify God"
-                    Through
-                    <li>(a) mobilizing the entire church for prayer.</li>
-                    <li>(b) Improving church growth through evangelism and nurture.</li>
-                    <li>(c) Attaining self-sufficiency through effective resource mobilization.</li>
-                    <li>(d) Promoting socio-economic development through advocacy and effective delivery of social service</li>
-                    <li>(e) Upholding the Reformed Tradition</li>
-                    <li>(f) Cherishing partnership with worldwide body of Christ.</li> 
+                    pursue a holistic ministry, so as to bring all of creation to glorify God through:
+
+                    <ol class="list-items">
+                        <li class="aboutme-text-list">mobilizing the entire church for prayer.</li>
+                        <li class="aboutme-text-list">Improving church growth through evangelism and nurture.</li>
+                        <li class="aboutme-text-list">Attaining self-sufficiency through effective resource mobilization.</li>
+                        <li class="aboutme-text-list">Promoting socio-economic development through advocacy and effective delivery of social service</li>
+                        <li class="aboutme-text-list">Upholding the Reformed Tradition</li>
+                        <li class="aboutme-text-list">Cherishing partnership with worldwide body of Christ.</li> 
+                    </ol>
                 </p>
             </div>
         </div>
@@ -75,7 +81,7 @@
 
                 <div class="grid-items">
                   
-                    <img class="services-images" src="./images/sample picture.jpg" alt="">
+                    <img id="aboutme-picture" src="./images/aboutus-picture.JPG" alt="">
                 </div>
 
                 <div>
@@ -97,17 +103,18 @@
         
             <div class="social-media">
                 <a href="https://www.facebook.com/login.php/" target="_blank" class="fa fa-facebook"></a> 
-                <a href="https://x.com/i/flow/login" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
             </div>
 
             <div>
                 <p>
-                    Developed & Managed by PEEJ 
+                    Developed & Managed by <a href="https://www.patrickedet.com/" target="_blank"><u>PEEJ</u></a> 
                 </p>
             </div>
         </div>
     </footer>
+
+    <script src="./scripts/scripts.js"></script>
 
 </body>
 </html>
