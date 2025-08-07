@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GPWC-Budapest</title>
+    <title>GPWC-Home</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="hero">
         <header>
             <div class="logo">
-                <h1>GPWC</h1>
+                <a href="index.html"><img src="./images/pngfind.com-church-logos-png-3820755.png" alt=""></a>
             </div>
+
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
             <div class="navbar">
                 <nav>
@@ -23,66 +28,68 @@
                         <li><a href="./about-us.html">About Us</a></li>
                         <li><a href="./mens-ministry.html">Men's Ministry</a></li>
                         <li><a href="./womens-ministry.html">Women's Ministry</a></li>
-                        <li><a href="./gallery.html">Gallery</a></li>
                         <li><a href="./donations.html">Donations</a></li>
                     </ul>
                 </nav>
             </div>
 
             <div class="contact-info">
-                <button class="btn-primary">Contact Us</button>
+                <button class="btn-primary"><a href="./contact-us.html">Contact Us</a></button>
             </div>
         </header>
     </div>
     
 
-    <section class="cta">
-        <div class="cta-contact-header">
-            <h3>New to Budapest and looking for a christian community?</h3>
-        </div>
-           
-        <div class="cta-contact-text">
-            <p>
-                Whether you've just arrived in Budapest or are exploring faith for the first time, 
-                we'd love to connect with you. Our Christian community is a place to find friendship,
-                grow spiritually, and experience the love of God together. 
-                Come as you are — there's a place for you here.
-            </p>
-        </div>
+    <section >
+        <div class="cta">
+            <div class="cta-contact-header">
+                <h3>New to Budapest and looking for a christian community?</h3>
+            </div>
+            
+            <div>
+                <p class="cta-contact-text">
+                    Whether you've just arrived in Budapest or are exploring faith for the first time, 
+                    we'd love to connect with you. Our Christian community is a place to find friendship,
+                    grow spiritually, and experience the love of God together. 
+                    Come as you are — there's a place for you here.
+                </p>
+            </div>
 
-        <button class="btn-primary">Reach Out</button>
+            <button class="btn-primary"><a href="./contact-us.html">Reach Out</a></button>
+        </div>
     </section>
+
 
     <section>
         <div class="grid-container">
             <div class="grid-items">
-                <h3 class="services-header">Sunday Worship Services</h3>
+                <h3>Sunday Worship Services</h3>
 
-                <img class="services-images" src="./images/sample picture.jpg" alt="">
+                <img class="home-pictures" src="./images/sunday-service-picture.JPG" alt="">
 
-                <h3 class="services-text">
-                    Every Sunday at our church auditorium at 09:30am until 11:30am.
-                </h3>
+                <p class="service-time">
+                    Every Sunday: 09:30am - 11:30am
+                </p>
             </div>
 
             <div class="grid-items">
-                <h3 class="services-header">Tuesday Prayer Services</h3>
+                <h3>Tuesday Prayer Services</h3>
 
-                <img class="services-images" src="./images/sample picture.jpg" alt="">
+                <img class="home-pictures" src="./images/tuesday-service-picture.JPG" alt="">
 
-                <h3 class="services-text">
-                    Every Tuesday from 07:00pm until 08:00pm to pray for our church growth.
-                </h3>
+                <p class="service-time">
+                    Every Tuesday: 07:00pm - 08:00pm
+                </p>
             </div>
 
             <div class="grid-items">
-                <h3 class="services-header">Friday Prayer Services</h3>
+                <h3>Friday Prayer Services</h3>
 
-                <img class="services-images" src="./images/sample picture.jpg" alt="">
+                <img class="home-pictures" src="./images/homepage-picture4.JPG" alt="">
 
-                <h3 class="services-text">
-                    Every Wednesday from 07:00pm until 08:00pm to seek God's guidance.
-                </h3>
+                <p class="service-time">
+                    Every Friday: 07:00pm - 08:00pm
+                </p>
             </div>
         </div>
     </section>
@@ -95,17 +102,18 @@
         
             <div class="social-media">
                 <a href="https://www.facebook.com/login.php/" target="_blank" class="fa fa-facebook"></a> 
-                <a href="https://x.com/i/flow/login" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
             </div>
 
             <div>
                 <p>
-                    Developed & Managed by PEEJ 
+                    Developed & Managed by <a href="https://www.patrickedet.com/" target="_blank"><u>PEEJ</u></a> 
                 </p>
             </div>
         </div>
     </footer>
+
+    <script src="./scripts/scripts.js"></script>
 
 </body>
 </html>
