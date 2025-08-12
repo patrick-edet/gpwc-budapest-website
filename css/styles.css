@@ -102,7 +102,7 @@ ul li a:hover {
     background: #CE4642;
     color: white;
     border: none;
-    padding: 0.5rem 2.0vw;
+    padding: 1.0rem 2.0vw;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -465,6 +465,7 @@ form {
   form button[type="reset"]:hover {
     background-color: #700804;
   }
+
 
 
 
